@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G31" minimumToolsVersion="Xcode 8.0" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EmailAddresses" representedClassName=".EmailAddresses" syncable="YES">
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EmailReceiptsToggle" representedClassName=".EmailReceiptsToggle" syncable="YES">
+        <attribute name="toggleOn" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PushNotificationsToggle" representedClassName="" syncable="YES">
+        <attribute name="toggleOn" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Receipts" representedClassName=".Receipts" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imageLocation" attributeType="String" defaultValueString="&quot;&quot;" syncable="YES"/>
+        <attribute name="isPhotoReceipt" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="store" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Warranties" representedClassName=".Warranties" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="daysLeft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WarrantyAlertTime" syncable="YES"/>
+    <elements>
+        <element name="EmailAddresses" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="EmailReceiptsToggle" positionX="-18" positionY="27" width="128" height="60"/>
+        <element name="PushNotificationsToggle" positionX="0" positionY="45" width="128" height="60"/>
+        <element name="Receipts" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="Warranties" positionX="-36" positionY="9" width="128" height="90"/>
+        <element name="WarrantyAlertTime" positionX="18" positionY="63" width="128" height="45"/>
+    </elements>
+</model>

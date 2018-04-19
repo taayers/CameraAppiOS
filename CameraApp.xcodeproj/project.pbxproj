@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2A6EDA1DB43833007B4FD3 /* WarrantyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6ED91DB43833007B4FD3 /* WarrantyListViewController.swift */; };
+		5F2A6EDC1DB45D2B007B4FD3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EDB1DB45D2B007B4FD3 /* PageViewController.swift */; };
+		5F2A6EDE1DB67ADA007B4FD3 /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EDD1DB67ADA007B4FD3 /* ReceiptListViewController.swift */; };
+		5F2A6EE21DB6C46E007B4FD3 /* PageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EE11DB6C46E007B4FD3 /* PageItem.swift */; };
+		5F2A6EE41DB93F2E007B4FD3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EE31DB93F2E007B4FD3 /* SettingsViewController.swift */; };
+		5F2A6EE61DBACFCC007B4FD3 /* WarrantyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EE51DBACFCB007B4FD3 /* WarrantyCell.swift */; };
+		5F2A6EE81DBAD01C007B4FD3 /* ReceiptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A6EE71DBAD01C007B4FD3 /* ReceiptCell.swift */; };
+		5F4CF5441DDB8391004C4B92 /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF5431DDB8391004C4B92 /* VCExtension.swift */; };
+		5F6A89F11DDF73E50098EBC7 /* EditReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A89F01DDF73E50098EBC7 /* EditReceiptViewController.swift */; };
+		5F94CBF41DF753550007C483 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 5F94CBF31DF753550007C483 /* tessdata */; };
+		5F94CBF61DF75A8C0007C483 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F94CBF51DF75A8C0007C483 /* TesseractOCR.framework */; };
+		5F94CBF91DF75B340007C483 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F94CBF81DF75B340007C483 /* CoreImage.framework */; };
+		5F94CBFB1DF75B570007C483 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F94CBFA1DF75B570007C483 /* libstdc++.6.0.9.tbd */; };
+		5F9DAEDD1DD631B800CE9CFB /* EmailAddresses+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DAEDB1DD631B800CE9CFB /* EmailAddresses+CoreDataClass.swift */; };
+		5F9DAEDE1DD631B800CE9CFB /* EmailAddresses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DAEDC1DD631B800CE9CFB /* EmailAddresses+CoreDataProperties.swift */; };
+		5FA357A11DDBDE0800D6202A /* Warranties+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA3579F1DDBDE0800D6202A /* Warranties+CoreDataClass.swift */; };
+		5FA357A21DDBDE0800D6202A /* Warranties+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA357A01DDBDE0800D6202A /* Warranties+CoreDataProperties.swift */; };
+		5FA653441DCD15100091D110 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA653431DCD15100091D110 /* Functions.swift */; };
+		5FB164DC1DE3AA620026DEBA /* Receipts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB164DA1DE3AA620026DEBA /* Receipts+CoreDataClass.swift */; };
+		5FB164DD1DE3AA620026DEBA /* Receipts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB164DB1DE3AA620026DEBA /* Receipts+CoreDataProperties.swift */; };
+		5FBC56AF1DAFCB560047F4C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC56AE1DAFCB560047F4C3 /* AppDelegate.swift */; };
+		5FBC56B11DAFCB560047F4C3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC56B01DAFCB560047F4C3 /* CameraViewController.swift */; };
+		5FBC56B41DAFCB560047F4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBC56B21DAFCB560047F4C3 /* Main.storyboard */; };
+		5FBC56B71DAFCB560047F4C3 /* CameraApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC56B51DAFCB560047F4C3 /* CameraApp.xcdatamodeld */; };
+		5FBC56B91DAFCB560047F4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBC56B81DAFCB560047F4C3 /* Assets.xcassets */; };
+		5FBC56BC1DAFCB560047F4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBC56BA1DAFCB560047F4C3 /* LaunchScreen.storyboard */; };
+		5FC023B7206AB96000D0A095 /* ViewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC023B6206AB96000D0A095 /* ViewImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F2A6ED91DB43833007B4FD3 /* WarrantyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarrantyListViewController.swift; sourceTree = "<group>"; };
+		5F2A6EDB1DB45D2B007B4FD3 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		5F2A6EDD1DB67ADA007B4FD3 /* ReceiptListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
+		5F2A6EE11DB6C46E007B4FD3 /* PageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItem.swift; sourceTree = "<group>"; };
+		5F2A6EE31DB93F2E007B4FD3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5F2A6EE51DBACFCB007B4FD3 /* WarrantyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarrantyCell.swift; sourceTree = "<group>"; };
+		5F2A6EE71DBAD01C007B4FD3 /* ReceiptCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptCell.swift; sourceTree = "<group>"; };
+		5F4CF5431DDB8391004C4B92 /* VCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCExtension.swift; sourceTree = "<group>"; };
+		5F6A89F01DDF73E50098EBC7 /* EditReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReceiptViewController.swift; sourceTree = "<group>"; };
+		5F94CBF31DF753550007C483 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		5F94CBF51DF75A8C0007C483 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = ../TesseractOCR.framework; sourceTree = "<group>"; };
+		5F94CBF81DF75B340007C483 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5F94CBFA1DF75B570007C483 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		5F94CBFC1DF75CF10007C483 /* CameraApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F9DAEDB1DD631B800CE9CFB /* EmailAddresses+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmailAddresses+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F9DAEDC1DD631B800CE9CFB /* EmailAddresses+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmailAddresses+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5FA3579F1DDBDE0800D6202A /* Warranties+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Warranties+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FA357A01DDBDE0800D6202A /* Warranties+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Warranties+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5FA653431DCD15100091D110 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		5FB164DA1DE3AA620026DEBA /* Receipts+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Receipts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FB164DB1DE3AA620026DEBA /* Receipts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Receipts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5FBC56AB1DAFCB560047F4C3 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBC56AE1DAFCB560047F4C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FBC56B01DAFCB560047F4C3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5FBC56B31DAFCB560047F4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FBC56B61DAFCB560047F4C3 /* ReceiptSmartiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReceiptSmartiOS.xcdatamodel; sourceTree = "<group>"; };
+		5FBC56B81DAFCB560047F4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBC56BB1DAFCB560047F4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FBC56BD1DAFCB560047F4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC023B6206AB96000D0A095 /* ViewImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBC56A81DAFCB560047F4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F94CBFB1DF75B570007C483 /* libstdc++.6.0.9.tbd in Frameworks */,
+				5F94CBF91DF75B340007C483 /* CoreImage.framework in Frameworks */,
+				5F94CBF61DF75A8C0007C483 /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F94CBF21DF7525B0007C483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F94CBF31DF753550007C483 /* tessdata */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F94CBF71DF75B340007C483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F94CBFA1DF75B570007C483 /* libstdc++.6.0.9.tbd */,
+				5F94CBF81DF75B340007C483 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FBC56A21DAFCB560047F4C3 = {
+			isa = PBXGroup;
+			children = (
+				5FBC56AD1DAFCB560047F4C3 /* CameraApp */,
+				5FBC56AC1DAFCB560047F4C3 /* Products */,
+				5F94CBF71DF75B340007C483 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBC56AC1DAFCB560047F4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC56AB1DAFCB560047F4C3 /* CameraApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBC56AD1DAFCB560047F4C3 /* CameraApp */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC56BD1DAFCB560047F4C3 /* Info.plist */,
+				5FBC56B81DAFCB560047F4C3 /* Assets.xcassets */,
+				5FBC56BA1DAFCB560047F4C3 /* LaunchScreen.storyboard */,
+				5FBC56B21DAFCB560047F4C3 /* Main.storyboard */,
+				5FBC56AE1DAFCB560047F4C3 /* AppDelegate.swift */,
+				5F2A6EDB1DB45D2B007B4FD3 /* PageViewController.swift */,
+				5FBC56B01DAFCB560047F4C3 /* CameraViewController.swift */,
+				5F2A6ED91DB43833007B4FD3 /* WarrantyListViewController.swift */,
+				5F2A6EDD1DB67ADA007B4FD3 /* ReceiptListViewController.swift */,
+				5F2A6EE31DB93F2E007B4FD3 /* SettingsViewController.swift */,
+				5F6A89F01DDF73E50098EBC7 /* EditReceiptViewController.swift */,
+				5FC023B6206AB96000D0A095 /* ViewImageViewController.swift */,
+				5FBC56B51DAFCB560047F4C3 /* CameraApp.xcdatamodeld */,
+				5F9DAEDB1DD631B800CE9CFB /* EmailAddresses+CoreDataClass.swift */,
+				5F9DAEDC1DD631B800CE9CFB /* EmailAddresses+CoreDataProperties.swift */,
+				5FB164DA1DE3AA620026DEBA /* Receipts+CoreDataClass.swift */,
+				5FB164DB1DE3AA620026DEBA /* Receipts+CoreDataProperties.swift */,
+				5FA3579F1DDBDE0800D6202A /* Warranties+CoreDataClass.swift */,
+				5FA357A01DDBDE0800D6202A /* Warranties+CoreDataProperties.swift */,
+				5F2A6EE11DB6C46E007B4FD3 /* PageItem.swift */,
+				5F2A6EE51DBACFCB007B4FD3 /* WarrantyCell.swift */,
+				5F2A6EE71DBAD01C007B4FD3 /* ReceiptCell.swift */,
+				5FA653431DCD15100091D110 /* Functions.swift */,
+				5F4CF5431DDB8391004C4B92 /* VCExtension.swift */,
+				5F94CBF51DF75A8C0007C483 /* TesseractOCR.framework */,
+				5F94CBF21DF7525B0007C483 /* Supporting Files */,
+				5F94CBFC1DF75CF10007C483 /* CameraApp-Bridging-Header.h */,
+			);
+			path = CameraApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBC56AA1DAFCB560047F4C3 /* CameraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBC56C01DAFCB560047F4C3 /* Build configuration list for PBXNativeTarget "CameraApp" */;
+			buildPhases = (
+				5FBC56A71DAFCB560047F4C3 /* Sources */,
+				5FBC56A81DAFCB560047F4C3 /* Frameworks */,
+				5FBC56A91DAFCB560047F4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraApp;
+			productName = ReceiptSmartiOS;
+			productReference = 5FBC56AB1DAFCB560047F4C3 /* CameraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBC56A31DAFCB560047F4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Triadic Software";
+				TargetAttributes = {
+					5FBC56AA1DAFCB560047F4C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 49978ZLVJD;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FBC56A61DAFCB560047F4C3 /* Build configuration list for PBXProject "CameraApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FBC56A21DAFCB560047F4C3;
+			productRefGroup = 5FBC56AC1DAFCB560047F4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBC56AA1DAFCB560047F4C3 /* CameraApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBC56A91DAFCB560047F4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBC56BC1DAFCB560047F4C3 /* LaunchScreen.storyboard in Resources */,
+				5F94CBF41DF753550007C483 /* tessdata in Resources */,
+				5FBC56B91DAFCB560047F4C3 /* Assets.xcassets in Resources */,
+				5FBC56B41DAFCB560047F4C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBC56A71DAFCB560047F4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2A6EDC1DB45D2B007B4FD3 /* PageViewController.swift in Sources */,
+				5FA357A21DDBDE0800D6202A /* Warranties+CoreDataProperties.swift in Sources */,
+				5FA653441DCD15100091D110 /* Functions.swift in Sources */,
+				5F4CF5441DDB8391004C4B92 /* VCExtension.swift in Sources */,
+				5F2A6EDE1DB67ADA007B4FD3 /* ReceiptListViewController.swift in Sources */,
+				5F9DAEDD1DD631B800CE9CFB /* EmailAddresses+CoreDataClass.swift in Sources */,
+				5F2A6EDA1DB43833007B4FD3 /* WarrantyListViewController.swift in Sources */,
+				5FA357A11DDBDE0800D6202A /* Warranties+CoreDataClass.swift in Sources */,
+				5FBC56B11DAFCB560047F4C3 /* CameraViewController.swift in Sources */,
+				5F9DAEDE1DD631B800CE9CFB /* EmailAddresses+CoreDataProperties.swift in Sources */,
+				5FB164DC1DE3AA620026DEBA /* Receipts+CoreDataClass.swift in Sources */,
+				5F2A6EE81DBAD01C007B4FD3 /* ReceiptCell.swift in Sources */,
+				5F2A6EE21DB6C46E007B4FD3 /* PageItem.swift in Sources */,
+				5F2A6EE61DBACFCC007B4FD3 /* WarrantyCell.swift in Sources */,
+				5FB164DD1DE3AA620026DEBA /* Receipts+CoreDataProperties.swift in Sources */,
+				5FBC56B71DAFCB560047F4C3 /* CameraApp.xcdatamodeld in Sources */,
+				5FBC56AF1DAFCB560047F4C3 /* AppDelegate.swift in Sources */,
+				5FC023B7206AB96000D0A095 /* ViewImageViewController.swift in Sources */,
+				5F2A6EE41DB93F2E007B4FD3 /* SettingsViewController.swift in Sources */,
+				5F6A89F11DDF73E50098EBC7 /* EditReceiptViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FBC56B21DAFCB560047F4C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBC56B31DAFCB560047F4C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FBC56BA1DAFCB560047F4C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBC56BB1DAFCB560047F4C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FBC56BE1DAFCB560047F4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBC56BF1DAFCB560047F4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBC56C11DAFCB560047F4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49978ZLVJD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CameraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameraapp.triadicsoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraApp/CameraApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5FBC56C21DAFCB560047F4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49978ZLVJD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CameraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameraapp.triadicsoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraApp/CameraApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBC56A61DAFCB560047F4C3 /* Build configuration list for PBXProject "CameraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBC56BE1DAFCB560047F4C3 /* Debug */,
+				5FBC56BF1DAFCB560047F4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBC56C01DAFCB560047F4C3 /* Build configuration list for PBXNativeTarget "CameraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBC56C11DAFCB560047F4C3 /* Debug */,
+				5FBC56C21DAFCB560047F4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FBC56B51DAFCB560047F4C3 /* CameraApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FBC56B61DAFCB560047F4C3 /* ReceiptSmartiOS.xcdatamodel */,
+			);
+			currentVersion = 5FBC56B61DAFCB560047F4C3 /* ReceiptSmartiOS.xcdatamodel */;
+			path = CameraApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FBC56A31DAFCB560047F4C3 /* Project object */;
+}
